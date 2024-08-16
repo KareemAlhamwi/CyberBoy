@@ -1,26 +1,84 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Movment : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private bool facingRight = true;
+
+    public float num;
+    bool grounded;
+    [SerializeField] float jump;
+    public float speed;
+    //-----//
+    SpriteRenderer sr;
+    Animator anm;
+    Rigidbody2D rb;
+    //-----//
     void Start()
     {
-        
+        sr = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
+        anm = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            //dosmthin
-        }
+        //Right&Left Movement
         if (Input.GetKey(KeyCode.A))
         {
-        // Ambatakam
-            
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
+            if (facingRight)
+            {
+                Flip();
+            }   
+
         }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(speed, rb.velocity.y);
+            if (!facingRight)
+            {
+                Flip();
+            }
+        }
+
+        //prevent the player from sliding after stop moving
+        if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        }
+
+        //Jumping
+        if (Input.GetButtonDown("Jump") && grounded == true)
+        {
+            grounded = false;
+            rb.velocity = new Vector2(rb.velocity.x, jump);
+        }
+
     }
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Ground"))
+            {
+                grounded = true;
+            }
+        }
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Ground"))
+            {
+                grounded = false;
+            }
+        }
+    
 }
