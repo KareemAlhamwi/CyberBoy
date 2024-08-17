@@ -22,7 +22,7 @@ public class Gun_Manager : MonoBehaviour
 
     private void Start()
     {
-    }
+     }
     void Update()
     {
         //============================//
