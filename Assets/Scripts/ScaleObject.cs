@@ -17,24 +17,22 @@ public class ScaleObject : MonoBehaviour
         hitCount++;
         switch (hitCount)
         {
-            case 1:
-                break;
-
             case 2:
                 transform.localScale *= 1.4f; // Scale up
                 break;
 
-            case 3:
-                break;
-
             case 4:
-                transform.localScale *= 1.7f; // Scale down
+                transform.localScale *= 1.6f; // Scale up
                 break;
-
-            case 5:
-                break;
-
             case 6:
+                transform.localScale *= 1.8f; // Scale up
+
+                break;
+
+            case 8:
+                transform.localScale *= 2f; // Scale up
+                break;
+            case 10:
                 transform.localScale = originalScale; // Reset to original scale
                 hitCount = 0; // Reset hit count
                 break;
