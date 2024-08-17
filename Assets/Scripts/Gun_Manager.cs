@@ -9,6 +9,7 @@ public class Gun_Manager : MonoBehaviour
     [Header("Gun")]
     [SerializeField] Transform gun;
     [SerializeField] float gun_distance;
+    [SerializeField] Transform GunFirePoint;
 
     [Header("Bullet")]
     [SerializeField] GameObject bulletPreFab;
@@ -42,7 +43,7 @@ public class Gun_Manager : MonoBehaviour
     }
     public void shoot(Vector3 direction)
     {
-       GameObject newbullet = Instantiate(bulletPreFab,gun.position, Quaternion.identity);
+       GameObject newbullet = Instantiate(bulletPreFab,GunFirePoint.position, Quaternion.identity);
         newbullet.GetComponent<Rigidbody2D>().velocity = direction.normalized * bulletSpeed;
     }
 }

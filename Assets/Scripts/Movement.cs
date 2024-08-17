@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private bool facingRight = true;
+    //private bool facingRight = true;
 
     public float num;
     bool grounded;
@@ -29,19 +29,13 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
-            if (facingRight)
-            {
-                Flip();
-            }   
+            sr.flipX = true;
 
         }
         else if (Input.GetKey(KeyCode.D))
         {
             rb.velocity = new Vector2(speed, rb.velocity.y);
-            if (!facingRight)
-            {
-                Flip();
-            }
+            sr.flipX = false;
         }
 
         //prevent the player from sliding after stop moving
@@ -58,13 +52,13 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-    void Flip()
-    {
-        facingRight = !facingRight;
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
-    }
+    //void Flip()
+    //{
+    //    facingRight = !facingRight;
+    //    Vector3 theScale = transform.localScale;
+    //    theScale.x *= -1;
+    //    transform.localScale = theScale;
+    //}
 
     private void OnTriggerStay2D(Collider2D other)
         {
