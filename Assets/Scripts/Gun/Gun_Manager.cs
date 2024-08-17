@@ -12,7 +12,7 @@ public class Gun_Manager : MonoBehaviour
     [SerializeField] Transform GunFirePoint;
     [SerializeField] SpriteRenderer gunSpriteRenderer;
     [SerializeField] Sprite[] gunSprites;
-
+    bool gunfacingright;
     [Header("Bullet")]
     [SerializeField] GameObject[] bulletsPreFabs;
     [SerializeField] float bulletSpeed;
@@ -42,13 +42,23 @@ public class Gun_Manager : MonoBehaviour
 
         // Position the gun at the specified distance from the player
         gun.position = transform.position + direction.normalized * gun_distance;
+
+        //gun flip
+        gunflipcontroller(mousePos);
         //============================//
 
+
+        //============================//
+        //shoot
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             shoot(direction);
         }
+        //============================//
 
+
+        //============================//
+        //scroll to change bullets
         scroll = Input.GetAxis("Mouse ScrollWheel");
         if (scroll != 0)
         {
@@ -62,8 +72,25 @@ public class Gun_Manager : MonoBehaviour
                 currentBulletIndex = (currentBulletIndex - 1 + bulletsPreFabs.Length) % bulletsPreFabs.Length;
             }
             gunSpriteRenderer.sprite = gunSprites[currentBulletIndex];
-
         }
+        //============================//
+
+    }
+    void gunflipcontroller(Vector3 mousepos)
+    {
+        if (mousepos.x > gun.position.x && gunfacingright)
+        {
+            gunflip();
+        }
+        else if(mousepos.x < gun.position.x && !gunfacingright)
+        {
+            gunflip();
+        }
+    }
+    void gunflip()
+    {
+        gunfacingright = !gunfacingright;
+        gun.localScale = new Vector3(gun.localScale.x, gun.localScale.y * -1 ,gun.localScale.z);
     }
     public void shoot(Vector3 direction)
     {

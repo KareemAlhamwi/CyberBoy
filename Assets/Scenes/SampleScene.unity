@@ -1329,7 +1329,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   groundCheck: {fileID: 1109304045}
-  checkSize: {x: 0.26, y: 0.23}
+  checkSize: {x: 0.26, y: 0.4}
   jumpForce: 10.1
 --- !u!1 &639525340
 GameObject:
