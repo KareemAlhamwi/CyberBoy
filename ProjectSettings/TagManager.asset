@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Draggable
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - Water
   - UI
   - IgnoreMouse
-  - 
-  - 
+  - Draggable
+  - Player
   - 
   - 
   - 
