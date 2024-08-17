@@ -10,11 +10,19 @@ public class Gun_Manager : MonoBehaviour
     [SerializeField] Transform gun;
     [SerializeField] float gun_distance;
     [SerializeField] Transform GunFirePoint;
+    [SerializeField] SpriteRenderer gunSpriteRenderer;
+    [SerializeField] Sprite[] gunSprites;
 
     [Header("Bullet")]
-    [SerializeField] GameObject bulletPreFab;
+    [SerializeField] GameObject[] bulletsPreFabs;
     [SerializeField] float bulletSpeed;
-    
+
+    private int currentBulletIndex = 0;
+    public float scroll;
+
+    private void Start()
+    {
+    }
     void Update()
     {
         //============================//
@@ -40,10 +48,27 @@ public class Gun_Manager : MonoBehaviour
         {
             shoot(direction);
         }
+
+        scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (scroll != 0)
+        {
+            // Change the current bullet index based on scroll direction
+            if (scroll > 0)
+            {
+                currentBulletIndex = (currentBulletIndex + 1) % bulletsPreFabs.Length;
+            }
+            else if (scroll < 0)
+            {
+                currentBulletIndex = (currentBulletIndex - 1 + bulletsPreFabs.Length) % bulletsPreFabs.Length;
+            }
+            gunSpriteRenderer.sprite = gunSprites[currentBulletIndex];
+
+        }
     }
     public void shoot(Vector3 direction)
     {
-       GameObject newbullet = Instantiate(bulletPreFab,GunFirePoint.position, Quaternion.identity);
+        GameObject bulletPrefab = bulletsPreFabs[currentBulletIndex];
+        GameObject newbullet = Instantiate(bulletPrefab, GunFirePoint.position, Quaternion.identity);
         newbullet.GetComponent<Rigidbody2D>().velocity = direction.normalized * bulletSpeed;
     }
 }

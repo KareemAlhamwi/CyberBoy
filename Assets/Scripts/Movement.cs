@@ -60,19 +60,34 @@ public class PlayerMovement : MonoBehaviour
     //    transform.localScale = theScale;
     //}
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
         {
-            if (other.gameObject.CompareTag("Ground"))
-            {
-                grounded = true;
-            }
+            grounded = true;
+            anm.SetBool("Jumping", false);
         }
-        private void OnTriggerExit2D(Collider2D other)
+    }
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
         {
-            if (other.gameObject.CompareTag("Ground"))
-            {
-                grounded = false;
-            }
+            grounded = false;
         }
+    }
+    //private void OnTriggerStay2D(Collider2D other)
+    //    {
+    //        if (other.gameObject.CompareTag("Ground"))
+    //        {
+    //            grounded = true;
+    //        }
+    //    }
+    //    private void OnTriggerExit2D(Collider2D other)
+    //    {
+    //        if (other.gameObject.CompareTag("Ground"))
+    //        {
+    //            grounded = false;
+    //        }
+    //    }
     
 }
