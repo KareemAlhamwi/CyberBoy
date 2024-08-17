@@ -16,6 +16,11 @@ public class Movment : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             //dosmthin
-        } 
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+        // Ambatakam
+            
+        }
     }
 }
