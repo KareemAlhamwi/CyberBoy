@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: c36cbb1ea1a04104891f7ad286314ac4
+guid: 8d879c18c6135884ababf88940f3d7cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1262872066163778660
-    second: Transporter1_0
+      213: -6417861038299096587
+    second: Green_Lazer_0
+  - first:
+      213: -8010379094959631810
+    second: Green_Lazer_1
+  - first:
+      213: 49886912028411013
+    second: Green_Lazer_2
+  - first:
+      213: -7227045942630109780
+    second: Green_Lazer_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Transporter1_0
+      name: Green_Lazer_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
-        width: 128
-        height: 17
+        y: 0
+        width: 47
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +123,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 464a474047f968110800000000000000
-      internalID: 1262872066163778660
+      spriteID: 5f9dc52936d2fe6a0800000000000000
+      internalID: -6417861038299096587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Lazer_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3257b867aa65d090800000000000000
+      internalID: -8010379094959631810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Lazer_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5840566d1eb31b000800000000000000
+      internalID: 49886912028411013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Lazer_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadaa16710064bb90800000000000000
+      internalID: -7227045942630109780
       vertices: []
       indices: 
       edges: []
@@ -130,8 +202,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Transporter1_0: 1262872066163778660
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

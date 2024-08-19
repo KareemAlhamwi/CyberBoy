@@ -1,25 +1,37 @@
 fileFormatVersion: 2
-guid: 2ae359b685a40f04d8c27ac060f3d06b
+guid: 6b89040a8bff26e419a20666b7708428
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5670732621190257608
-    second: Money_0
+      213: -5952181624076977987
+    second: Robot_Walk_0
   - first:
-      213: 2429705866556353255
-    second: Money_1
+      213: 4561006901425181418
+    second: Robot_Walk_1
   - first:
-      213: -8490346600704463052
-    second: Money_2
+      213: -7841372452277447727
+    second: Robot_Walk_2
   - first:
-      213: -2552588362852645552
-    second: Money_3
+      213: -9039429023442507797
+    second: Robot_Walk_3
   - first:
-      213: -1282214387447324998
-    second: Money_4
+      213: -2198011316147130506
+    second: Robot_Walk_4
   - first:
-      213: -3827101018466894660
-    second: Money_5
+      213: 1258984590165655023
+    second: Robot_Walk_5
+  - first:
+      213: 8422261742095566338
+    second: Robot_Walk_6
+  - first:
+      213: 301112775558120889
+    second: Robot_Walk_7
+  - first:
+      213: -6067915236986718275
+    second: Robot_Walk_8
+  - first:
+      213: -6199796406948872684
+    second: Robot_Walk_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Money_0
+      name: Robot_Walk_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 4
-        width: 17
-        height: 16
+        x: 0
+        y: 0
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cbd34e264d72be40800000000000000
-      internalID: 5670732621190257608
+      spriteID: db8b842595a956da0800000000000000
+      internalID: -5952181624076977987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Money_1
+      name: Robot_Walk_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 5
-        width: 12
-        height: 16
+        x: 22
+        y: 0
+        width: 25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ea26cccc9c08b120800000000000000
-      internalID: 2429705866556353255
+      spriteID: ae29d819c93fb4f30800000000000000
+      internalID: 4561006901425181418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Money_2
+      name: Robot_Walk_2
       rect:
         serializedVersion: 2
-        x: 53
-        y: 6
-        width: 12
-        height: 16
+        x: 45
+        y: 0
+        width: 25
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43fa01d10ca3c2a80800000000000000
-      internalID: -8490346600704463052
+      spriteID: 1d3187ecc49dd2390800000000000000
+      internalID: -7841372452277447727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Money_3
+      name: Robot_Walk_3
       rect:
         serializedVersion: 2
-        x: 76
-        y: 6
-        width: 15
-        height: 16
+        x: 68
+        y: 0
+        width: 25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0554f5e7862639cd0800000000000000
-      internalID: -2552588362852645552
+      spriteID: be76a55323f7d8280800000000000000
+      internalID: -9039429023442507797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Money_4
+      name: Robot_Walk_4
       rect:
         serializedVersion: 2
-        x: 98
-        y: 5
-        width: 19
-        height: 15
+        x: 91
+        y: 0
+        width: 25
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abe9e4edec8a43ee0800000000000000
-      internalID: -1282214387447324998
+      spriteID: 67fe2c08a581f71e0800000000000000
+      internalID: -2198011316147130506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Money_5
+      name: Robot_Walk_5
       rect:
         serializedVersion: 2
-        x: 123
-        y: 4
-        width: 17
-        height: 14
+        x: 114
+        y: 0
+        width: 25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,8 +246,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbcbeba86e763eac0800000000000000
-      internalID: -3827101018466894660
+      spriteID: fedb38a70dfc87110800000000000000
+      internalID: 1258984590165655023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20608fe6e62e1e470800000000000000
+      internalID: 8422261742095566338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b549785974cd2400800000000000000
+      internalID: 301112775558120889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7f93cbd3f6acba0800000000000000
+      internalID: -6067915236986718275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41eb11c0406e5f9a0800000000000000
+      internalID: -6199796406948872684
       vertices: []
       indices: 
       edges: []
@@ -250,13 +346,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Money_0: 5670732621190257608
-      Money_1: 2429705866556353255
-      Money_2: -8490346600704463052
-      Money_3: -2552588362852645552
-      Money_4: -1282214387447324998
-      Money_5: -3827101018466894660
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

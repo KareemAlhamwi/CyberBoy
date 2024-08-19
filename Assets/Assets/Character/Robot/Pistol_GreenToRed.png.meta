@@ -1,19 +1,34 @@
 fileFormatVersion: 2
-guid: f0d6c25b7cdcd47499a1477cf45f8fa1
+guid: b2240fe65da0efa41970ff841814cdda
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3607643352480215830
-    second: Entry_0
+      213: 8978235083429846661
+    second: Pistol_GreenToRed_0
   - first:
-      213: -5350186563486715884
-    second: Entry_1
+      213: -5978375277763311502
+    second: Pistol_GreenToRed_1
   - first:
-      213: 6253161958273894288
-    second: Entry_2
+      213: 7266309874271506595
+    second: Pistol_GreenToRed_2
   - first:
-      213: 5558773393284171175
-    second: Entry_3
+      213: -8846113541402646666
+    second: Pistol_GreenToRed_3
+  - first:
+      213: -1097116796686501016
+    second: Pistol_GreenToRed_4
+  - first:
+      213: 6836742790930183236
+    second: Pistol_GreenToRed_5
+  - first:
+      213: 8533641603940431142
+    second: Pistol_GreenToRed_6
+  - first:
+      213: -659332203426504633
+    second: Pistol_GreenToRed_7
+  - first:
+      213: 1806815945548232736
+    second: Pistol_GreenToRed_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Entry_0
+      name: Pistol_GreenToRed_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 129
-        height: 64
+        width: 14
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,41 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aec0e1b2c731fedc0800000000000000
-      internalID: -3607643352480215830
+      spriteID: 58e19c95d39199c70800000000000000
+      internalID: 8978235083429846661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Entry_1
+      name: Pistol_GreenToRed_1
       rect:
         serializedVersion: 2
-        x: 141
-        y: 59
-        width: 16
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4107e41caa150c5b0800000000000000
-      internalID: -5350186563486715884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Entry_2
-      rect:
-        serializedVersion: 2
-        x: 159
+        x: 13
         y: 0
-        width: 97
-        height: 64
+        width: 15
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 097c6ed9ba1b7c650800000000000000
-      internalID: 6253161958273894288
+      spriteID: 278c0f21c5b880da0800000000000000
+      internalID: -5978375277763311502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Entry_3
+      name: Pistol_GreenToRed_2
       rect:
         serializedVersion: 2
-        x: 131
+        x: 27
         y: 0
-        width: 16
-        height: 5
+        width: 15
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,8 +180,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a5889513fab42d40800000000000000
-      internalID: 5558773393284171175
+      spriteID: 3a0ddd3055e17d460800000000000000
+      internalID: 7266309874271506595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_GreenToRed_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6772ce15a9a4c3580800000000000000
+      internalID: -8846113541402646666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_GreenToRed_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bf260161246c0f0800000000000000
+      internalID: -1097116796686501016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_GreenToRed_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4443b12885df0ee50800000000000000
+      internalID: 6836742790930183236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_GreenToRed_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6253d5b53d59d6670800000000000000
+      internalID: 8533641603940431142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_GreenToRed_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740a9c1bad499d6f0800000000000000
+      internalID: -659332203426504633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_GreenToRed_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028f9e09789131910800000000000000
+      internalID: 1806815945548232736
       vertices: []
       indices: 
       edges: []
@@ -202,11 +322,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Entry_0: -3607643352480215830
-      Entry_1: -5350186563486715884
-      Entry_2: 6253161958273894288
-      Entry_3: 5558773393284171175
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

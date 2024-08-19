@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: c36cbb1ea1a04104891f7ad286314ac4
+guid: 791fb088786aa2d4280a7ccdd0d73228
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1262872066163778660
-    second: Transporter1_0
+      213: -1343454360717577722
+    second: Red_Lazer_0
+  - first:
+      213: -9124843539046833616
+    second: Red_Lazer_1
+  - first:
+      213: 7439784491193562456
+    second: Red_Lazer_2
+  - first:
+      213: 5705024462579052073
+    second: Red_Lazer_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Transporter1_0
+      name: Red_Lazer_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 15
-        width: 128
-        height: 17
+        x: 8
+        y: 39
+        width: 48
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +123,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 464a474047f968110800000000000000
-      internalID: 1262872066163778660
+      spriteID: 602ba7970671b5de0800000000000000
+      internalID: -1343454360717577722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Lazer_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 39
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0326810952b0e5180800000000000000
+      internalID: -9124843539046833616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Lazer_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 39
+        width: 40
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8557d0bb39c6f3760800000000000000
+      internalID: 7439784491193562456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Lazer_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 39
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e20fea5815c2f40800000000000000
+      internalID: 5705024462579052073
       vertices: []
       indices: 
       edges: []
@@ -130,8 +202,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Transporter1_0: 1262872066163778660
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
