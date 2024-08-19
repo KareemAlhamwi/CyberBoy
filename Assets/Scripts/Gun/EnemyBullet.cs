@@ -8,7 +8,9 @@ public class EnemyBullet : MonoBehaviour
     ScaleObject so;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();    }
+        rb = GetComponent<Rigidbody2D>();
+        so = GameObject.FindGameObjectWithTag("Draggable").GetComponent<ScaleObject>();
+    }
 
     void Update()
     {
@@ -18,10 +20,14 @@ public class EnemyBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Draggable"))
         {
-            //kil
+            so.HandleHitSmall();
             StartCoroutine(DestroyBullet());
+        }
+        else if (other.gameObject.CompareTag("Ground"))
+        {
+            destroybullet();
         }
     }
     void destroybullet()

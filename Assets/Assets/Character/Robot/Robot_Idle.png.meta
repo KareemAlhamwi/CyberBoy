@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -92,7 +92,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -274,7 +274,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot_Idle_0: 356012182521869387
+      Robot_Idle_1: -3617390182378467331
+      Robot_Idle_2: 2313308341071884494
+      Robot_Idle_3: 8639674888104648523
+      Robot_Idle_4: -8432569098682961038
+      Robot_Idle_5: 5135778425487339115
+      Robot_Idle_6: 4886673732623866884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

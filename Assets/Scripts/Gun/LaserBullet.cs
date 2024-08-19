@@ -25,6 +25,10 @@ public class LaserBullet : MonoBehaviour
             so.HandleHit();
             StartCoroutine(DestroyBullet());
         }
+        else if (other.gameObject.CompareTag("Ground"))
+        {
+            destroybullet();
+        }
     }
     void destroybullet()
     {

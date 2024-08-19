@@ -28,14 +28,12 @@ public class PlayerMovement : MonoBehaviour
         //Right&Left Movement
         if (Input.GetKey(KeyCode.A))
         {
-            anm.SetFloat("Speed",0.02f);
             rb.velocity = new Vector2(-speed, rb.velocity.y);
             sr.flipX = true;
 
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            anm.SetFloat("Speed",0.02f);
             rb.velocity = new Vector2(speed, rb.velocity.y);
             sr.flipX = false;
         }
@@ -45,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
+
+        anm.SetFloat("Speed",Mathf.Abs(rb.velocity.x));
 
         //    //Jumping
         //    if (Input.GetButtonDown("Jump") && grounded == true)

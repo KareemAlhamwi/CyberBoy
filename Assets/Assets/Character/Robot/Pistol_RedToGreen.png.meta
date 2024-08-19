@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -98,7 +98,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -322,7 +322,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pistol_RedToGreen_0: 7555616906361411430
+      Pistol_RedToGreen_1: -7296448594645240494
+      Pistol_RedToGreen_2: 3848287969587240835
+      Pistol_RedToGreen_3: 869550958733774523
+      Pistol_RedToGreen_4: 3908984948501013419
+      Pistol_RedToGreen_5: 1271165138859108997
+      Pistol_RedToGreen_6: -2252440632101356803
+      Pistol_RedToGreen_7: -4235346774177086718
+      Pistol_RedToGreen_8: 1795728936071000351
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
