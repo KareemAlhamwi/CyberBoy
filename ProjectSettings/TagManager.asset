@@ -8,6 +8,9 @@ TagManager:
   - Draggable
   - Bullet
   - Guns
+  - player
+  - enemy
+  - DraggableOEnemy
   layers:
   - Default
   - TransparentFX

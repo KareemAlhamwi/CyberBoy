@@ -8,8 +8,10 @@ public class Player_collect : MonoBehaviour
     [SerializeField] GameObject guns;
     [SerializeField] GameObject gunscollecter;
     [SerializeField] Collider2D col;
+    [SerializeField] Canvas tut;
     private void Awake()
     {
+        tut.enabled = false;
         col.enabled = true;
         guns.SetActive(false);
         gm.enabled = false;
@@ -23,7 +25,8 @@ public class Player_collect : MonoBehaviour
             gm.enabled = true;
             gunscollecter.SetActive(false);
             col.enabled = false;
-
+            tut.enabled = true;
+            Time.timeScale = 0;
         }
     }
 }

@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8010164353808685444
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
+  m_Name: MotionBlur
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  shutterAngle:
+    overrideState: 1
+    value: 281
+  sampleCount:
+    overrideState: 1
+    value: 10
 --- !u!114 &-4668474485823109114
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -24,7 +46,7 @@ MonoBehaviour:
     value: 1.1
   softKnee:
     overrideState: 1
-    value: 0.649
+    value: 0.523
   clamp:
     overrideState: 1
     value: 65472
@@ -59,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
@@ -69,7 +91,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0
+    value: 0.05
   fastMode:
     overrideState: 1
     value: 0
@@ -92,6 +114,7 @@ MonoBehaviour:
   - {fileID: 8982706948196112038}
   - {fileID: -1176634273213482976}
   - {fileID: 4067214627763168026}
+  - {fileID: -8010164353808685444}
 --- !u!114 &509021998515715813
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -110,7 +133,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: -100
+    value: -38
   intensityX:
     overrideState: 1
     value: 1
@@ -1492,7 +1515,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.382
+    value: 0.254
   smoothness:
     overrideState: 1
     value: 0.676
