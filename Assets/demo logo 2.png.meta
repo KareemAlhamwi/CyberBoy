@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 7505a0e3fb01d8d4c9faa780fb9b6db4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8642636755650857402
+    second: demo logo 1_0
+  - first:
+      213: -2905158188282693313
+    second: demo logo 1_1
+  - first:
+      213: 6846371927137192662
+    second: demo logo 1_2
+  - first:
+      213: -2074573959340091596
+    second: demo logo 1_3
+  - first:
+      213: -8880310983532981048
+    second: demo logo 1_4
+  - first:
+      213: -1124241048534427502
+    second: demo logo 1_5
+  - first:
+      213: 4995391288115188389
+    second: demo logo 1_6
+  - first:
+      213: -2515334492612666638
+    second: demo logo 1_7
+  - first:
+      213: 7239025103571095130
+    second: demo logo 1_8
+  - first:
+      213: -1679602181347173694
+    second: demo logo 1_9
+  - first:
+      213: 6415210612052743622
+    second: demo logo 1_10
+  - first:
+      213: -2891148080620703462
+    second: demo logo 1_11
+  - first:
+      213: -7091685320148842898
+    second: demo logo 1_12
+  - first:
+      213: -3513247597896343664
+    second: demo logo 1_13
+  - first:
+      213: 4072184645438062711
+    second: demo logo 1_14
+  - first:
+      213: -8997542507193402176
+    second: demo logo 1_15
+  - first:
+      213: -775863636197873820
+    second: demo logo 1_16
+  - first:
+      213: -444323941585740310
+    second: demo logo 1_17
+  - first:
+      213: 5025258180609648133
+    second: demo logo 1_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demo logo 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1477
+        height: 2177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9cd4fa650d0f770800000000000000
+      internalID: 8642636755650857402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_1
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 767
+        width: 770
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39b71b150ecea7d0800000000000000
+      internalID: -2905158188282693313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_2
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 792
+        width: 499
+        height: 824
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da083d7ef2330f50800000000000000
+      internalID: 6846371927137192662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_3
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 798
+        width: 201
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437124db9f1a533e0800000000000000
+      internalID: -2074573959340091596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_4
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 617
+        width: 684
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4548bd53cc2c480800000000000000
+      internalID: -8880310983532981048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_5
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 799
+        width: 397
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298513c09b4e560f0800000000000000
+      internalID: -1124241048534427502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_6
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 793
+        width: 504
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2df2ae8e1335540800000000000000
+      internalID: 4995391288115188389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_7
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 794
+        width: 457
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fad8841b9cb71dd0800000000000000
+      internalID: -2515334492612666638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_8
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 808
+        width: 529
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e8d7a4afe267460800000000000000
+      internalID: 7239025103571095130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_9
+      rect:
+        serializedVersion: 2
+        x: 5890
+        y: 798
+        width: 201
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca94d807bad0b8e0800000000000000
+      internalID: -1679602181347173694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_10
+      rect:
+        serializedVersion: 2
+        x: 6143
+        y: 810
+        width: 511
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c558baff08670950800000000000000
+      internalID: 6415210612052743622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_11
+      rect:
+        serializedVersion: 2
+        x: 6679
+        y: 679
+        width: 542
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11fc8d732490e7d0800000000000000
+      internalID: -2891148080620703462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_12
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 244
+        width: 219
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e660da156c5459d90800000000000000
+      internalID: -7091685320148842898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_13
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 267
+        width: 260
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fd4677cef6e3fc0800000000000000
+      internalID: -3513247597896343664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_14
+      rect:
+        serializedVersion: 2
+        x: 4550
+        y: 257
+        width: 312
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770c2231c5e438830800000000000000
+      internalID: 4072184645438062711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_15
+      rect:
+        serializedVersion: 2
+        x: 5078
+        y: 267
+        width: 266
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc724fb2ce422380800000000000000
+      internalID: -8997542507193402176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_16
+      rect:
+        serializedVersion: 2
+        x: 5557
+        y: 267
+        width: 122
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467684232249b35f0800000000000000
+      internalID: -775863636197873820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_17
+      rect:
+        serializedVersion: 2
+        x: 5895
+        y: 251
+        width: 264
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed9490bab175d9f0800000000000000
+      internalID: -444323941585740310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo logo 1_18
+      rect:
+        serializedVersion: 2
+        x: 6385
+        y: 244
+        width: 219
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5062dd7b0bd4db540800000000000000
+      internalID: 5025258180609648133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      demo logo 1_0: 8642636755650857402
+      demo logo 1_1: -2905158188282693313
+      demo logo 1_10: 6415210612052743622
+      demo logo 1_11: -2891148080620703462
+      demo logo 1_12: -7091685320148842898
+      demo logo 1_13: -3513247597896343664
+      demo logo 1_14: 4072184645438062711
+      demo logo 1_15: -8997542507193402176
+      demo logo 1_16: -775863636197873820
+      demo logo 1_17: -444323941585740310
+      demo logo 1_18: 5025258180609648133
+      demo logo 1_2: 6846371927137192662
+      demo logo 1_3: -2074573959340091596
+      demo logo 1_4: -8880310983532981048
+      demo logo 1_5: -1124241048534427502
+      demo logo 1_6: 4995391288115188389
+      demo logo 1_7: -2515334492612666638
+      demo logo 1_8: 7239025103571095130
+      demo logo 1_9: -1679602181347173694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

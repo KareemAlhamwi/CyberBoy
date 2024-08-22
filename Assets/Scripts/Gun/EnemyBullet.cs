@@ -15,17 +15,16 @@ public class EnemyBullet : MonoBehaviour
     void Update()
     {
         transform.right = rb.velocity;
-        Invoke("destroybullet", 3f);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other2)
     {
-        if (other.gameObject.CompareTag("Draggable"))
+        if (other2.gameObject.CompareTag("Draggable"))
         {
-            so.HandleHitSmall();
+            other2.gameObject.GetComponent<ScaleObject>().HandleHitSmall();
             StartCoroutine(DestroyBullet());
         }
-        else if (other.gameObject.CompareTag("Ground"))
+        else if (other2.gameObject.CompareTag("Ground"))
         {
             destroybullet();
         }

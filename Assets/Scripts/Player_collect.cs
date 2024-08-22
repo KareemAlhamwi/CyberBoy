@@ -9,7 +9,13 @@ public class Player_collect : MonoBehaviour
     [SerializeField] GameObject gunscollecter;
     [SerializeField] Collider2D col;
     [SerializeField] Canvas tut;
+    [SerializeField] AudioSource pick;
+
     private void Awake()
+    {
+        tut.enabled = false;
+    }
+    private void Start()
     {
         tut.enabled = false;
         col.enabled = true;
@@ -21,12 +27,14 @@ public class Player_collect : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Guns"))
         {
+            tut.enabled = true;
             guns.SetActive(true);
             gm.enabled = true;
             gunscollecter.SetActive(false);
             col.enabled = false;
-            tut.enabled = true;
+            pick.Play();
             Time.timeScale = 0;
+
         }
     }
 }

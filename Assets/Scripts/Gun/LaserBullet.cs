@@ -15,22 +15,18 @@ public class LaserBullet : MonoBehaviour
     void Update()
     {
         transform.right = rb.velocity;
-        Invoke("destroybullet", 3f);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other3)
     {
-        if (other.gameObject.CompareTag("Draggable"))
+        if (other3.gameObject.CompareTag("Draggable"))
         {
-            so.HandleHit();
+            other3.gameObject.GetComponent<ScaleObject>().HandleHit();
+
             StartCoroutine(DestroyBullet());
         }
-        else if (other.gameObject.CompareTag("DraggableOEnemy"))
-        {
-            so.HandleHit();
-            StartCoroutine(DestroyBullet());
-        }
-        else if (other.gameObject.CompareTag("Ground"))
+
+        else if (other3.gameObject.CompareTag("Ground"))
         {
             destroybullet();
         }

@@ -1,3 +1,4 @@
+using NUnit.Framework.Constraints;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,11 +10,12 @@ public class Enemy_chase : MonoBehaviour
     public float mindist;
     private Transform player;
     SpriteRenderer sr;
-
+    Animator anm;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("player").transform;
         sr = GetComponent<SpriteRenderer>();
+        anm = GetComponent<Animator>();
     }
 
     void Update()
@@ -24,16 +26,15 @@ public class Enemy_chase : MonoBehaviour
         }
         else
         {
-            //attack()
+            anm.SetTrigger("hit");
         }
-        if(player.transform.position.x < transform.position.x)
+        if (player.transform.position.x < transform.position.x)
         {
-            sr.flipX = false;
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
         else if (player.transform.position.x > transform.position.x)
         {
-            sr.flipX = true;
-
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
     }
     void FollowPlayer()

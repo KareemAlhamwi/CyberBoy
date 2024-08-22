@@ -16,12 +16,14 @@ public class Gun_Manager : MonoBehaviour
     [Header("Bullet")]
     [SerializeField] GameObject[] bulletsPreFabs;
     [SerializeField] float bulletSpeed;
-
+    private float timeSinceLastShot = 0.0f;
+    public float shootDelay = 0.6f;
     private int currentBulletIndex = 0;
     public float scroll;
-
+    [SerializeField] AudioSource lazer;
     private void Start()
     {
+        timeSinceLastShot = 0.6f;
      }
     void Update()
     {
@@ -50,9 +52,14 @@ public class Gun_Manager : MonoBehaviour
 
         //============================//
         //shoot
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        timeSinceLastShot += Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.Mouse0) && timeSinceLastShot >= shootDelay)
         {
-            shoot(direction);
+
+            shoot(direction); 
+            timeSinceLastShot = 0.0f;
+            lazer.Play();
         }
         //============================//
 
